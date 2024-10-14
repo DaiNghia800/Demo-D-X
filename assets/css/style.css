@@ -18,6 +18,10 @@ body {
 
 /*Section-1 */
 
+header {
+    position: sticky;
+}
+
 .section-1 {
     display: flex;
     justify-content: space-between;

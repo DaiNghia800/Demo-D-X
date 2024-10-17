@@ -6,6 +6,14 @@
 
 body {
     font-family: "Be Vietnam Pro", serif;
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    background-color: #fff;
 }
 
 /*Container */
@@ -22,6 +30,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section-1 .section-1__logo {
@@ -32,7 +42,7 @@ body {
 
 .section-1 .section-1__logo .image {
     position: absolute;
-    bottom: -15px;
+    bottom: -28px;
     padding: 8px 3px 8px 15px;
     left: 0;
     background-color: #fff;
@@ -102,7 +112,7 @@ body {
     transform: translate(0, -30%);
 }
 
-.section-2 .par-title .title {
+.section-2 .par-title .title h1 {
     font-size: 60px;
     font-weight: 700;
     color: #fff;
@@ -123,7 +133,7 @@ body {
 }
 
 .section-2 .par-title .navigation {
-    margin-top: 170px;
+    margin-top: 120px;
 }
 
 .section-2 .par-title .navigation div {
@@ -193,7 +203,7 @@ body {
     color: #fff;
 }
 
-.box-item:hover .box-item__title  button {
+.box-item:hover .box-item__title  a {
     background-color: red;
 }
 
@@ -217,7 +227,7 @@ body {
     max-width: 80%;
 }
 
-.box-item .box-item__title button {
+.box-item .box-item__title a {
     padding: 10px 30px 10px 30px;
     border-radius: 30px;
     font-weight: 500;
@@ -225,6 +235,7 @@ body {
     color: #fff;
     background-color: #092B68;
     border: 0;
+    cursor: pointer;
 }
 
 .box-item .box-item__title button .icon-right {

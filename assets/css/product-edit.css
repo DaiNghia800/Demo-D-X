@@ -173,6 +173,7 @@ header {
     background-repeat: no-repeat;
     padding-top: 200px;
     background-color: #F1F9FF;
+    background-size: cover;
 }
 
 .section-2 .inner-wrap {

@@ -73,8 +73,8 @@ header {
     margin-right: 0;
 }
 
-.header .header__ad {
-    display: flex !important;
+.header .header__ad-option {
+    display: flex ;
     justify-content: space-between;
     align-items: center;
 }

@@ -73,7 +73,7 @@ header {
     margin-right: 0;
 }
 
-.header .header__ad {
+.header .header__ad-option {
     display: flex;
     justify-content: space-between;
     align-items: center;

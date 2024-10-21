@@ -495,12 +495,13 @@ header {
     height: auto;
 }
 
-.item-info .item-info__content span {
+.item-info .item-info__content .item-info__content-date p {
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
     line-height: 49px;
     color: #204B9E;
+    margin: 0;
 }
 
 .item-info .item-info__content {

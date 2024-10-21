@@ -277,7 +277,7 @@ header {
     border-radius: 20px;
 }
 
-.section-2 .list-item .item-title {
+.section-2 .list-item .item-title p {
     text-align: center;
     font-family: Barlow;
     font-size: 20px;
@@ -285,7 +285,8 @@ header {
     font-weight: 500;
     line-height: 28px;
     padding: 5px;
-    margin-top: 15px;
+    margin: 15px 0 0 0;
+
 }
 
 /*End Section-2  */

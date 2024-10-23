@@ -555,6 +555,10 @@ header {
     .section-4 .menu-list ul {
         padding-left: 200px;
     }
+
+    .section-4 .list-item {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /*End Section-4  */

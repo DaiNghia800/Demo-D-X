@@ -13,7 +13,34 @@ body {
 
 .container {
     width: 1180px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width: 1199.98px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media(max-width: 991.98px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media(max-width: 767.98px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media(max-width: 575.98px) {
+    .container {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
 
 /*Container */
@@ -56,6 +83,10 @@ header {
     width: 100%;
 }
 
+.header  .icon-menu {
+    display: none;
+}
+
 .header .header__menu .list {
     list-style: none;
     display: flex;
@@ -93,6 +124,50 @@ header {
 .header .header__ad .language div {
     margin-right: 7px;
 }
+
+
+@media(max-width: 1199.98px) {
+    .header .header__menu .list li {
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 991.98px) {
+    .header .header__menu {
+        display: none;
+    }
+
+    .header .header__ad .find {
+        display: none;
+    }
+
+    .header  .icon-menu {
+        display: block;
+    }
+
+    .header .header__logo {
+        height: 40px;
+        width: 16%;
+    }
+}
+
+@media(max-width: 767.98px) {
+    .header .header__logo {
+        width: 22%;
+    }
+
+    .header  .icon-menu i {
+        font-size: 30px;
+        color: #204B9E;
+    }
+}
+
+@media(max-width: 575.98px) {
+    .header .header__logo {
+        height: 30px;
+    }
+}
+
 
 /*End Header */
 
@@ -163,6 +238,24 @@ header {
     color: #f0f4f7;
 }
 
+@media(max-width: 575.98px) {
+    .button-link a {
+        font-size: 12px;
+    }
+
+    .button-link {
+        padding: 2px 63px 2px 10px;
+    }
+
+    .button-link::after {
+        padding: 11px 16px 15px 16px;
+    }
+
+    .button-link::before {
+        width: 53px;
+    }
+}
+
 /*End Button */
 
 /*Section-1 */
@@ -176,6 +269,7 @@ header {
     position: relative;
     background-image: url("../images/section-1-bg-pr.png");
     background-position: bottom;
+    background-size: cover;
 }
 
 .section-1 .par-title {
@@ -199,6 +293,13 @@ header {
     font-weight: 200;
     color: #fff;
     max-width: 400px;
+}
+
+
+@media(max-width: 575.98px) {
+    .section-1 .par-title .title h1 {
+        font-size: 40px;
+    }
 }
 
 /*End Section-1 */
@@ -287,6 +388,12 @@ header {
     padding: 5px;
     margin: 15px 0 0 0;
 
+}
+
+@media(max-width: 1199.98px) {
+    .section-2 .list-item {
+        flex-wrap: wrap;
+    }
 }
 
 /*End Section-2  */
@@ -420,6 +527,34 @@ header {
 
 .button-see-all .active a {
     color: #fff;
+}
+
+
+@media(max-width: 991.98px) {
+    .section-4 .menu-list ul li {
+        text-wrap: nowrap;
+    }
+
+    .section-4 .menu-list ul {
+        padding-left: 50px;
+        overflow-x: scroll;
+    }
+
+    .section-4 .list-item {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 767.98px) {
+    .section-4 .menu-list ul {
+        padding-left: 160px;
+    }
+}
+
+@media(max-width: 575.98px) {
+    .section-4 .menu-list ul {
+        padding-left: 200px;
+    }
 }
 
 /*End Section-4  */
@@ -583,6 +718,17 @@ header {
     margin-bottom: 19px;
 }
 
+@media(max-width: 991.98px) {
+    .section-6 .inner-wrap {
+        flex-wrap: wrap;
+    }
+
+    .section-6 .section-6__content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
 /*End Section-6  */
 
 /*Section-9 */
@@ -643,11 +789,33 @@ header {
     font-size: 15px;
 }
 
+@media(max-width: 767.98px) {
+    .section-9 .inner-wrap .section-9__form {
+        flex-wrap: wrap;
+    }
+    
+    .section-9 .section-9__form .info {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .section-9 .section-9__form .input {
+        justify-content: left;
+        margin-top: 30px;
+    }
+    
+    .section-9 .section-9__form .input input {
+        width: 100%;
+    }
+}
+
 /*End Section-9 */
 
 /*Footer */
 footer {
     background-image: url("../images/bg-footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .footer {
@@ -694,6 +862,22 @@ footer .copy-right {
     font-size: 15px;
     font-weight: 200;
     color: #000;
+}
+
+@media(max-width: 767.98px) {
+ 
+    .footer {
+        flex-wrap: wrap;
+    }
+
+    .footer .footer__info {
+        flex-wrap: wrap;
+    }
+
+    .footer .footer__info div {
+        width: 100%;
+        margin-top: 30px;
+    }
 }
 
 /*End Footer */
